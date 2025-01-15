@@ -26,23 +26,23 @@ cmd({
         let monspace = '```';
         const snm = `👋 ${monspace} Hello ${pushname}, I'm alive now ${monspace}
 
-_*This queen sadu whatsapp bot is made for your easy use. This bot is currently active🪄*_
+_*This Malidu Hansana V1 whatsapp bot is made for your easy use. This bot is currently active 🪄*_
 
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 > *Runtime:* ${runtime(process.uptime())}
 > *Hostname:* ${hostname}
 
-*☘️ Follow our channel:* https://chat.whatsapp.com/EMRQDL2ANWlJcvs1nw90mv
+*☘️ Follow our channel:* https://chat.whatsapp.com/EWlXtIwH1D4988mVoqLMPi
 
-*Qᴜᴇᴇɴ ꜱᴀᴅᴜ ᴍᴅ ᴡᴀ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ*
-*ᴍʀ ᴅɪɴᴇꜱʜ*`;
+*Malidu Hansana WA BOT V1 Created by*
+*𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔*`;
 
         // Sending the audio message
         await conn.sendMessage(from, {
             audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/alive.mp3' },
             mimetype: 'audio/mp4', // Corrected mime type
-            ptt: true
+            ptt: false
         }, { quoted: mek });
 
         // Sending the image message
@@ -53,7 +53,7 @@ _*This queen sadu whatsapp bot is made for your easy use. This bot is currently 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇',
+                    newsletterName: '𝐌𝐑 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
@@ -83,27 +83,27 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *╰──────────●●►*
 *╭────────*
 *│
-*│ 1   OWNER*
-*│ 2   CONVERT*
-*│ 3   AI*
-*│ 4   SEARCH*
-*│ 5   DOWNLOAD*
-*│ 6   FUN*
-*│ 7   MAIN*
-*│ 8   GROUP*
-*│ 9   OTHER*
+*│ 1   OWNER MENU*
+*│ 2   CONVERT MENU*
+*│ 3   AI MENU*
+*│ 4   SEARCH MENU*
+*│ 5   DOWNLOAD MENU*
+*│ 6   FUN MENU*
+*│ 7   MAIN MENU*
+*│ 8   GROUPMENU*
+*│ 9   OTHER MENU*
 *╰─────────
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`;
+> *𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 𝐌𝐃 𝗩1*`;
 
 
         await conn.sendMessage(from, {
             audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/menu.mp3' },
             mimetype: 'audio/mp4', // Corrected mime type
-            ptt: true
+            ptt: false
         }, { quoted: mek });
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DsJTn1Zq-Ot2HfC0AJyyxO813o6pXewVCw&s"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
@@ -114,94 +114,94 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-                        reply(`*◈╾──OWNER MENU──╼◈*
+                        reply(`*☉╾── OWNER MENU ──╼☉*
 
 ╭────────●●►
-│ 🎀 *restart* 
+│ 🙈 *restart* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 MD V1*`);
                         break;
                     case '2':               
-                        reply(`*◈╾──CONVERT MENU──╼◈*
+                        reply(`*☉╾──CONVERT MENU──╼☉*
 
 ╭────────●●►
-│ 🎀 *convert* 
+│ 😚 *convert* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 MD V1*`);
                         break;
                     case '3':               
-                        reply(`*◈╾──AI MENU──╼◈*
+                        reply(`*☉╾──AI MENU──╼☉*
 
 ╭────────●●►
-│ 🎀 *ai* 
+│ 😏 *ai* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 MD V1*`);
                         break;
                     case '4':               
-                        reply(`*◈╾──SEARCH MENU──╼◈*
+                        reply(`*☉╾──SEARCH MENU──╼☉*
 
 ╭────────●●►
-│ 🎀 *yts* 
+│ ♏ *yts* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *srepo* 
+│ ♏ *srepo* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 MD V1*`);
                         break;
                     case '5':               
-                        reply(`*◈╾──DOWNLOAD MENU──╼◈*
+                        reply(`*☉╾──DOWNLOAD MENU──╼☉*
 
 ╭────────●●►
-│ 🎀 *apk* 
+│ 👌 *apk* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *twitter* 
+│ 💎 *twitter* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *gdrive* 
+│ 🎗️ *gdrive* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *mediafire* 
+│ ♒ *mediafire* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *fb* 
+│ ♉ *fb* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *ig* 
+│ ✨ *ig* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *movie* 
+│ 🏅 *movie* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *song* 
+│ 🧨 *song* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *video* 
+│ 🎆 *video* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *play/yt* 
+│ 🎄 *play/yt* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *song2* 
+│ 🎃 *song2* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *video2* 
+│ 🎁 *video2* 
 ╰──────────────────●●►
 ╭────────●●►
-│ 🎀 *tiktok* 
+│ 🧧 *tiktok* 
 ╰──────────────────●●►
 ╭────────●●►
 │ 🎀 *img* 
 ╰──────────────────●●►
 
-> *𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔 𝐌𝐃*`);
+> *𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 MD V1*`);
                         break;
                     case '7':               
-                        reply(`*◈╾──MAIN MENU──╼◈*
+                        reply(`*☉╾──MAIN MENU──╼☉*
 
 ╭────────●●►
 │ 🎀 *alive* 
@@ -334,7 +334,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*📡  ʀᴜɴɪɴɢ ʀᴇsᴘᴏɴᴅ...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*ᴘᴏɴɢ*: ${ping} *_ᴍꜱ_*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*Mαʅιԃυ Hαɳʂαɳα Bσƚ ᴘᴏɴɢ*: ${ping} *_ᴍꜱ_*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
@@ -364,7 +364,7 @@ async (conn, mek, m, { from, prefix, pushname, reply }) => {
 🗃️ *Memory :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ⏱️ *Runtime :* ${runtime(process.uptime())}
 📍 *Platform :* ${hostname}
-👤 *Owner :* 𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇
+👤 *Owner :* 𝐌𝐑 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔
 `;
 
         await conn.sendMessage(from, {
@@ -373,7 +373,7 @@ async (conn, mek, m, { from, prefix, pushname, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇',
+                    newsletterName: '𝐌𝐑 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
@@ -413,7 +413,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇',
+                    newsletterName: '𝐌𝐑 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔',
                     newsletterJid: "120363322195409882@newsletter",
                 }
             }
