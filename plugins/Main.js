@@ -47,7 +47,7 @@ _*This Malidu Hansana V1 whatsapp bot is made for your easy use. This bot is cur
 
         // Sending the image message
         const sentMsg = await conn.sendMessage(from, {
-            image: { url: imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DsJTn1Zq-Ot2HfC0AJyyxO813o6pXewVCw&s" },  // Provide a valid image URL
+            image: { url: imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DsJTn1Zq-Ot2HfC0AJyyxO813o6pXewVCw&s" },  // Provide a valid image URL
             caption: snm,
             contextInfo: {
                 forwardingScore: 999,
