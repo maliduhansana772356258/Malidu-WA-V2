@@ -12,8 +12,3 @@ cmd({
     category: "download",
     desc: "Search videos on xnxx and get download links",
     filename: __filename
-}, async (conn, m, mek, { from, isMe, isOwner, q, reply }) => {
-    try {
-        // Check if search query is provided
-        if (!q || q.trim() === '') return await reply('*Please provide a search query! (e.g., Deadpool)*');
-        if (!isMe && !isOwner) return await reply('*Only Bot Number Can Movie Download !!!*');
