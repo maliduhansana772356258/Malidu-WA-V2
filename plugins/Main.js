@@ -40,7 +40,7 @@ _*This Malidu Hansana V1 whatsapp bot is made for your easy use. This bot is cur
 
         // Sending the audio message
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/alive.mp3' },
+            audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/alve.mp3' },
             mimetype: 'audio/mp4', // Corrected mime type
             ptt: false
         }, { quoted: mek });
@@ -98,7 +98,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/menu.mp3' },
+            audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/mnu.mp3' },
             mimetype: 'audio/mp4', // Corrected mime type
             ptt: false
         }, { quoted: mek });
