@@ -62,7 +62,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 *👨‍💻 Mαʅιԃυ Hαɳʂαɳα Bσƚ 👨‍💻*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DsJTn1Zq-Ot2HfC0AJyyxO813o6pXewVCw&s }, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
